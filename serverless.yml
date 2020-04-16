@@ -1,3 +1,4 @@
+org: gonzaloachiaga
 # serverless.yml
 
 service: serverless-flask
@@ -8,7 +9,7 @@ plugins:
 
 custom:
   wsgi:
-    app: app.app
+    app: text-summarizer
     packRequirements: false
   pythonRequirements:
     dockerizePip: non-linux
